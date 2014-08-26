@@ -14,11 +14,13 @@
 
 @property NSString *tipNovina;
 
-- (id)initWithFirstName:(NSString *)naslovNovina tipNovina:(NSString *)tipNovina;
+@property NSString *izdavanje;
+
+- (id)initWithFirstName:(NSString *)naslovNovina tipNovina:(NSString *)tipNovina izdavanje:(NSString *)izdavanje;
 
 -(NSString*)getFullName;
 
--(void)changeFirstAndLastName:(NSString*)naslovNovina tipNovina:(NSString*)tipNovina;
+-(void)changeFirstAndLastName:(NSString*)naslovNovina tipNovina:(NSString*)tipNovina izdavanje:(NSString *)izdavanje;
 
 + (NSString*)whoAmI;
 

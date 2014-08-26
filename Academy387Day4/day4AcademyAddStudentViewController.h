@@ -7,14 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Student.h"
+#import "Novine.h"
 
 @interface day4AcademyAddStudentViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UITextField *firstNameTextBox;
+@property (weak, nonatomic) IBOutlet UITextField *naslovTextBox;
 
-@property (weak, nonatomic) IBOutlet UITextField *lastNameTextBox;
+@property (weak, nonatomic) IBOutlet UITextField *tipTextBox;
 
-@property Student *localStudent;
+@property (weak, nonatomic) IBOutlet UITextField *izdavanjeTextBox;
+
+@property Novine *localNovine;
 
 @end

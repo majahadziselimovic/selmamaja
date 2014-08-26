@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.localStudent = [Student alloc];
+    self.localNovine = [Novine alloc];
 }
 
 - (void)didReceiveMemoryWarning
@@ -30,10 +30,12 @@
 
 - (IBAction)saveChangesClicked:(id)sender {
     @try {
-        NSString *firstName = self.firstNameTextBox.text;
-        NSString *lastName = self.lastNameTextBox.text;
-        self.localStudent.firstName = firstName;
-        self.localStudent.lastName = lastName;
+        NSString *naslovNovina = self.naslovTextBox.text;
+        NSString *tipNovina = self.tipTextBox.text;
+        NSString *izdavanje = self.izdavanjeTextBox.text;
+        self.localNovine.naslovNovina = naslovNovina;
+        self.localNovine.tipNovina = tipNovina;
+        self.localNovine.izdavanje = izdavanje;
         [self performSegueWithIdentifier:@"returnToHome" sender:sender];
     }
     @catch (NSException *exception) {
@@ -53,7 +55,7 @@
 {
     if ([[segue identifier] isEqualToString:@"returnToHome"]) {
         day4AcademyViewController *controller = (day4AcademyViewController *)[segue destinationViewController];
-        [controller addStudentToArray:self.localStudent];
+        [controller addNovineToArray:self.localNovine];
     }
 }
 

@@ -10,17 +10,18 @@
 
 @implementation Novine
 
-- (id)initWithFirstName:(NSString *)naslovNovina tipNovina:(NSString *)tipNovina {
+- (id)initWithFirstName:(NSString *)naslovNovina tipNovina:(NSString *)tipNovina izdavanje:(NSString *)izdavanje {
     self = [super init];
     
     self.naslovNovina = naslovNovina;
     self.tipNovina = tipNovina;
+    self.izdavanje = izdavanje;
     
     return self;
 }
 
 -(NSString*)getFullName {
-    NSString *fullName = [[NSString alloc] initWithFormat:@"%@, %@", self.naslovNovina, self.tipNovina];
+    NSString *fullName = [[NSString alloc] initWithFormat:@"%@, %@, %@", self.naslovNovina, self.tipNovina, self.izdavanje];
     return fullName;
 }
 
@@ -36,9 +37,15 @@
     self.tipNovina = tipNovina;
 }
 
--(void)changeFirstAndLastName:(NSString*)naslovNovina tipNovina:(NSString*)tipNovina {
+- (void)changeIzdavanje:(NSString*)izdavanje{
+    self.izdavanje = izdavanje;
+}
+
+
+-(void)changeFirstAndLastName:(NSString*)naslovNovina tipNovina:(NSString*)tipNovina izdavanje:(NSString *)izdavanje{
     self.naslovNovina = naslovNovina;
     self.tipNovina = tipNovina;
+    self.izdavanje = izdavanje;
 }
 
 @end

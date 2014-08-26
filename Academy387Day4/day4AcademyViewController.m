@@ -19,7 +19,7 @@
     [super viewDidLoad];
     
     // Update data on form
-    [self updateNumberOfStudentInformation];
+    [self updateNumberOfNovineInformation];
 }
 
 - (void)didReceiveMemoryWarning
@@ -28,24 +28,24 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)addStudentToArray:(Student*) student {
-    self.students = [[NSArray alloc] initWithObjects:student, nil];
-    [self updateNumberOfStudentInformation];
+-(void)addNovineToArray:(Novine*) novine {
+    self.snovine = [[NSArray alloc] initWithObjects:novine, nil];
+    [self updateNumberOfNovineInformation];
 }
 
--(void)updateNumberOfStudentInformation {
-    if(self.students != Nil) {
-        self.studentsNumberTextbox.text = [[NSString alloc] initWithFormat:@"%d", (int)self.students.count];
+-(void)updateNumberOfNovineInformation {
+    if(self.snovine != Nil) {
+        self.snovineNumberTextbox.text = [[NSString alloc] initWithFormat:@"%d", (int)self.snovine.count];
     } else {
-        self.studentsNumberTextbox.text = @"0";
+        self.snovineNumberTextbox.text = @"0";
     }
-    [self updateListOfStudents];
+    [self updateListOfSnovine];
 }
 
--(void)updateListOfStudents {
-    for (Student *student in self.students) {
-        self.studentsList.text = [self.studentsList.text stringByAppendingString:[student getFullName]];
-        self.studentsList.text = [self.studentsList.text stringByAppendingString:@"\n"];
+-(void)updateListOfSnovine {
+    for (Novine *novine in self.snovine) {
+        self.snovineList.text = [self.snovineList.text stringByAppendingString:[novine getFullName]];
+        self.snovineList.text = [self.snovineList.text stringByAppendingString:@"\n"];
     }
 }
 

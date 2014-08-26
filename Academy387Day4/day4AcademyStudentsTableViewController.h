@@ -10,6 +10,6 @@
 
 @interface day4AcademyStudentsTableViewController : UITableViewController
 
-@property NSArray *students;
+@property NSArray *snovine;
 
 @end

@@ -26,7 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.students = [NSArray arrayWithObjects: @"Novine 1", @"Novine 2", @"Novine 3", @"Novine 4", nil];
+    self.snovine = [NSArray arrayWithObjects: @"Dnevni avaz", @"National geo.", @"Vogue", @"Azra", @"Mame&bebe", @"Astro", nil];
 }
 
 - (void)closeTableView
@@ -51,7 +51,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [self.students count];
+    return [self.snovine count];
 }
 
 
@@ -59,11 +59,11 @@
 {
     UITableViewCell *cell;
     if(indexPath.row % 2 == 0 )
-        cell = [tableView dequeueReusableCellWithIdentifier:@"StudentCell"];
+        cell = [tableView dequeueReusableCellWithIdentifier:@"NovineCell"];
     else
-        cell = [tableView dequeueReusableCellWithIdentifier:@"StudentCell1"];
-    NSString *student = [self.students objectAtIndex:indexPath.row];
-    cell.textLabel.text = student;
+        cell = [tableView dequeueReusableCellWithIdentifier:@"NovineCell1"];
+    NSString *novine = [self.snovine objectAtIndex:indexPath.row];
+    cell.textLabel.text = novine;
     return cell;
 }
 

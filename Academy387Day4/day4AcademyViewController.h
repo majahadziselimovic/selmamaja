@@ -7,16 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Student.h"
+#import "Novine.h"
 
 @interface day4AcademyViewController : UIViewController
 
--(void)addStudentToArray:(Student*) student;
+-(void)addNovineToArray:(Novine*) novine;
 
-@property NSArray *students;
+@property NSArray *snovine;
 
-@property (weak, nonatomic) IBOutlet UILabel *studentsNumberTextbox;
+@property (weak, nonatomic) IBOutlet UILabel *snovineNumberTextbox;
 
-@property (weak, nonatomic) IBOutlet UITextView *studentsList;
+@property (weak, nonatomic) IBOutlet UITextView *snovineList;
 
 @end

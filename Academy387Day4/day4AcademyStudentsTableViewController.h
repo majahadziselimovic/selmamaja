@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Naslovnice.h"
 
 @interface day4AcademyStudentsTableViewController : UITableViewController
 
+@property NSArray *listaNaslovnica;
 @property NSArray *snovine;
 
 @end

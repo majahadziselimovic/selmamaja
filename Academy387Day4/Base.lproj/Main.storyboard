@@ -164,10 +164,10 @@
             </objects>
             <point key="canvasLocation" x="594" y="-382"/>
         </scene>
-        <!--View Controller-->
+        <!--Naslovnice Novina View Controller-->
         <scene sceneID="lbD-S9-6ua">
             <objects>
-                <viewController id="uME-SF-pSw" sceneMemberID="viewController">
+                <viewController id="uME-SF-pSw" customClass="NaslovniceNovinaViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aU3-y1-K6l"/>
                         <viewControllerLayoutGuide type="bottom" id="vmU-7u-c4K"/>
@@ -183,10 +183,17 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WIh-N8-NbJ">
+                                <rect key="frame" x="15" y="174" width="285" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="fFk-wr-x2H"/>
+                    <connections>
+                        <outlet property="slikaNaslovnice" destination="WIh-N8-NbJ" id="oUn-zu-tdF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P9F-DZ-TFz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -209,7 +216,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="uME-SF-pSw" kind="push" id="eef-j0-sqs"/>
+                                    <segue destination="uME-SF-pSw" kind="push" identifier="showDetails" id="eef-j0-sqs"/>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="NovineCell1" id="EGz-8R-RP5">
@@ -268,6 +275,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="wxv-5B-SPj"/>
-        <segue reference="EGa-z4-rPx"/>
+        <segue reference="eef-j0-sqs"/>
     </inferredMetricsTieBreakers>
 </document>

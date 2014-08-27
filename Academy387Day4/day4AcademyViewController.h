@@ -9,11 +9,16 @@
 #import <UIKit/UIKit.h>
 #import "Novine.h"
 
+
+
+
 @interface day4AcademyViewController : UIViewController
 
 -(void)addNovineToArray:(Novine*) novine;
 
 @property NSArray *snovine;
+
+
 
 @property (weak, nonatomic) IBOutlet UILabel *snovineNumberTextbox;
 

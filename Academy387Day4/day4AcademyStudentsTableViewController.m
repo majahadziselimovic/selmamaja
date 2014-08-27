@@ -27,7 +27,12 @@
 {
     [super viewDidLoad];
     self.snovine = [NSArray arrayWithObjects: @"Dnevni avaz", @"National geo.", @"Vogue", @"Azra", @"Mame&bebe", @"Astro", nil];
-}
+    
+    
+    Naslovnice *naslovnica1 = [Naslovnice new];
+    naslovnica1.imageFile = @"woman_with_papers.gif";
+    
+    self.listaNaslovnica = [NSArray arrayWithObjects:naslovnica1, nil];}
 
 - (void)closeTableView
 {
@@ -66,5 +71,6 @@
     cell.textLabel.text = novine;
     return cell;
 }
+
 
 @end

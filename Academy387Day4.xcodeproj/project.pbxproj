@@ -23,6 +23,7 @@
 		200C770C19A61C8900A0462A /* Academy387Day4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 200C770B19A61C8900A0462A /* Academy387Day4Tests.m */; };
 		200C771719A621AE00A0462A /* day4AcademyAddStudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200C771619A621AE00A0462A /* day4AcademyAddStudentViewController.m */; };
 		2013EC2F19A78E9700DFF15A /* day4AcademyStudentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2013EC2E19A78E9700DFF15A /* day4AcademyStudentsTableViewController.m */; };
+		474B907A19AE323700795849 /* woman_with_papers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 474B907919AE323700795849 /* woman_with_papers.gif */; };
 		47570C0419AB99B100E44287 /* Novine.m in Sources */ = {isa = PBXBuildFile; fileRef = 47570C0319AB99B100E44287 /* Novine.m */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		200C771619A621AE00A0462A /* day4AcademyAddStudentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = day4AcademyAddStudentViewController.m; sourceTree = "<group>"; };
 		2013EC2D19A78E9700DFF15A /* day4AcademyStudentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = day4AcademyStudentsTableViewController.h; sourceTree = "<group>"; };
 		2013EC2E19A78E9700DFF15A /* day4AcademyStudentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = day4AcademyStudentsTableViewController.m; sourceTree = "<group>"; };
+		474B907919AE323700795849 /* woman_with_papers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = woman_with_papers.gif; path = ../../../Downloads/woman_with_papers.gif; sourceTree = "<group>"; };
 		47570C0219AB99B100E44287 /* Novine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Novine.h; sourceTree = "<group>"; };
 		47570C0319AB99B100E44287 /* Novine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Novine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +128,7 @@
 				200C76EF19A61C8900A0462A /* day4AcademyAppDelegate.h */,
 				200C76F019A61C8900A0462A /* day4AcademyAppDelegate.m */,
 				47570C0219AB99B100E44287 /* Novine.h */,
+				474B907919AE323700795849 /* woman_with_papers.gif */,
 				47570C0319AB99B100E44287 /* Novine.m */,
 				200C76F219A61C8900A0462A /* Main.storyboard */,
 				200C76F819A61C8900A0462A /* Images.xcassets */,
@@ -260,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				474B907A19AE323700795849 /* woman_with_papers.gif in Resources */,
 				200C76F919A61C8900A0462A /* Images.xcassets in Resources */,
 				200C76EB19A61C8900A0462A /* InfoPlist.strings in Resources */,
 				200C76F419A61C8900A0462A /* Main.storyboard in Resources */,

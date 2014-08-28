@@ -26,6 +26,13 @@
 		474B907D19AE371100795849 /* Naslovnice.m in Sources */ = {isa = PBXBuildFile; fileRef = 474B907C19AE371100795849 /* Naslovnice.m */; };
 		474B908019AE44EF00795849 /* NaslovniceNovinaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 474B907F19AE44EF00795849 /* NaslovniceNovinaViewController.m */; };
 		47570C0419AB99B100E44287 /* Novine.m in Sources */ = {isa = PBXBuildFile; fileRef = 47570C0319AB99B100E44287 /* Novine.m */; };
+		47D1FAF019AF49230022BA1F /* NA-image-paper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D1FAEF19AF49230022BA1F /* NA-image-paper.jpg */; };
+		47D1FAF219AF4DA80022BA1F /* da0403.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D1FAF119AF4DA80022BA1F /* da0403.jpg */; };
+		47D1FAF419AF4DB50022BA1F /* National_Geographic_-_King_Tut_face.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D1FAF319AF4DB50022BA1F /* National_Geographic_-_King_Tut_face.jpg */; };
+		47D1FAF619AF4DC60022BA1F /* azra07mart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D1FAF519AF4DC60022BA1F /* azra07mart.jpg */; };
+		47D1FAF819AF4DD30022BA1F /* mojabeba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D1FAF719AF4DD30022BA1F /* mojabeba.jpg */; };
+		47D1FAFA19AF4F040022BA1F /* Vogue_UK.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D1FAF919AF4F040022BA1F /* Vogue_UK.jpg */; };
+		47D1FAFC19AF4F0F0022BA1F /* asrto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D1FAFB19AF4F0F0022BA1F /* asrto.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +75,13 @@
 		474B907F19AE44EF00795849 /* NaslovniceNovinaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaslovniceNovinaViewController.m; sourceTree = "<group>"; };
 		47570C0219AB99B100E44287 /* Novine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Novine.h; sourceTree = "<group>"; };
 		47570C0319AB99B100E44287 /* Novine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Novine.m; sourceTree = "<group>"; };
+		47D1FAEF19AF49230022BA1F /* NA-image-paper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NA-image-paper.jpg"; path = "../../../Downloads/NA-image-paper.jpg"; sourceTree = "<group>"; };
+		47D1FAF119AF4DA80022BA1F /* da0403.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = da0403.jpg; path = ../../../Downloads/da0403.jpg; sourceTree = "<group>"; };
+		47D1FAF319AF4DB50022BA1F /* National_Geographic_-_King_Tut_face.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "National_Geographic_-_King_Tut_face.jpg"; path = "../../../Downloads/National_Geographic_-_King_Tut_face.jpg"; sourceTree = "<group>"; };
+		47D1FAF519AF4DC60022BA1F /* azra07mart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = azra07mart.jpg; path = ../../../Downloads/azra07mart.jpg; sourceTree = "<group>"; };
+		47D1FAF719AF4DD30022BA1F /* mojabeba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mojabeba.jpg; path = ../../../Downloads/mojabeba.jpg; sourceTree = "<group>"; };
+		47D1FAF919AF4F040022BA1F /* Vogue_UK.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Vogue_UK.jpg; path = ../../../Downloads/Vogue_UK.jpg; sourceTree = "<group>"; };
+		47D1FAFB19AF4F0F0022BA1F /* asrto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = asrto.jpg; path = ../../../Downloads/asrto.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +146,14 @@
 				200C76EF19A61C8900A0462A /* day4AcademyAppDelegate.h */,
 				200C76F019A61C8900A0462A /* day4AcademyAppDelegate.m */,
 				47570C0219AB99B100E44287 /* Novine.h */,
+				47D1FAF319AF4DB50022BA1F /* National_Geographic_-_King_Tut_face.jpg */,
+				47D1FAFB19AF4F0F0022BA1F /* asrto.jpg */,
+				47D1FAF919AF4F040022BA1F /* Vogue_UK.jpg */,
 				474B907919AE323700795849 /* woman_with_papers.gif */,
+				47D1FAF519AF4DC60022BA1F /* azra07mart.jpg */,
+				47D1FAF719AF4DD30022BA1F /* mojabeba.jpg */,
+				47D1FAF119AF4DA80022BA1F /* da0403.jpg */,
+				47D1FAEF19AF49230022BA1F /* NA-image-paper.jpg */,
 				47570C0319AB99B100E44287 /* Novine.m */,
 				200C76F219A61C8900A0462A /* Main.storyboard */,
 				474B907E19AE44EF00795849 /* NaslovniceNovinaViewController.h */,
@@ -270,9 +291,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D1FAFA19AF4F040022BA1F /* Vogue_UK.jpg in Resources */,
+				47D1FAF419AF4DB50022BA1F /* National_Geographic_-_King_Tut_face.jpg in Resources */,
 				474B907A19AE323700795849 /* woman_with_papers.gif in Resources */,
+				47D1FAF019AF49230022BA1F /* NA-image-paper.jpg in Resources */,
+				47D1FAF219AF4DA80022BA1F /* da0403.jpg in Resources */,
+				47D1FAF819AF4DD30022BA1F /* mojabeba.jpg in Resources */,
 				200C76EB19A61C8900A0462A /* InfoPlist.strings in Resources */,
+				47D1FAF619AF4DC60022BA1F /* azra07mart.jpg in Resources */,
 				200C76F419A61C8900A0462A /* Main.storyboard in Resources */,
+				47D1FAFC19AF4F0F0022BA1F /* asrto.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

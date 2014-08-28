@@ -7,6 +7,7 @@
 //
 
 #import "day4AcademyStudentsTableViewController.h"
+#import "NaslovniceNovinaViewController.h"
 
 @interface day4AcademyStudentsTableViewController ()
 
@@ -26,13 +27,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.snovine = [NSArray arrayWithObjects: @"Dnevni avaz", @"National geo.", @"Vogue", @"Azra", @"Mame&bebe", @"Astro", nil];
+    self.snovine = [NSArray arrayWithObjects: @"Dnevni avaz", @"National geo.", @"Vogue", @"Azra", @"Mojabeba", @"Astro", nil];
     
     
     Naslovnice *naslovnica1 = [Naslovnice new];
-    naslovnica1.imageFile = @"woman_with_papers.gif";
+    naslovnica1.imageFile = @"da0403.jpg";
+    Naslovnice *naslovnica2 = [Naslovnice new];
+    naslovnica2.imageFile = @"National_Geographic_-_King_Tut_face.jpg";
+    Naslovnice *naslovnica3 = [Naslovnice new];
+    naslovnica3.imageFile = @"Vogue_UK.jpg";
+    Naslovnice *naslovnica4 = [Naslovnice new];
+    naslovnica4.imageFile = @"azra07mart.jpg";
+    Naslovnice *naslovnica5 = [Naslovnice new];
+    naslovnica5.imageFile = @"mojabeba.jpg";
+    Naslovnice *naslovnica6 = [Naslovnice new];
+    naslovnica6.imageFile = @"asrto.jpg";
     
-    self.listaNaslovnica = [NSArray arrayWithObjects:naslovnica1, nil];}
+    self.listaNaslovnica = [NSArray arrayWithObjects:naslovnica1, naslovnica2, naslovnica3, naslovnica4, naslovnica5, naslovnica6, nil];}
 
 - (void)closeTableView
 {
@@ -72,5 +83,10 @@
     return cell;
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    NaslovniceNovinaViewController *destViewController = segue.destinationViewController;
+    destViewController.naslovnica= [self.listaNaslovnica objectAtIndex:indexPath.row];
 
+}
 @end

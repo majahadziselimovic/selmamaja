@@ -84,9 +84,11 @@
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if ([segue.identifier isEqualToString:@"showDetails"]) {
     NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
     NaslovniceNovinaViewController *destViewController = segue.destinationViewController;
     destViewController.naslovnica= [self.listaNaslovnica objectAtIndex:indexPath.row];
+    }
 
 }
 @end

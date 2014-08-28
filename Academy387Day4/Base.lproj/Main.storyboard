@@ -227,7 +227,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="uME-SF-pSw" kind="push" identifier="detailView" id="EGa-z4-rPx"/>
+                                    <segue destination="uME-SF-pSw" kind="push" identifier="showDetails" id="EGa-z4-rPx"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -275,6 +275,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="wxv-5B-SPj"/>
-        <segue reference="eef-j0-sqs"/>
+        <segue reference="EGa-z4-rPx"/>
     </inferredMetricsTieBreakers>
 </document>
